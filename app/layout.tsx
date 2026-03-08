@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: 'https://apollogrouptv.com',
+    canonical: 'https://appoloiptv.com',
   },
 }
 
