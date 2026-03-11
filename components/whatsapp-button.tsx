@@ -10,7 +10,7 @@ export default function WhatsAppButton() {
       initial={{ scale: 0, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
       transition={{ delay: 1, type: "spring", stiffness: 200 }}
-      className="fixed bottom-6 right-6 z-50"
+      className="fixed bottom-6 left-6 z-50"
     >
       <Link
         href="https://wa.me/212707711512"
@@ -21,7 +21,7 @@ export default function WhatsAppButton() {
       >
         <MessageCircle className="h-7 w-7 text-[#ffffff]" />
       </Link>
-      <span className="absolute -top-1 -right-1 flex h-4 w-4">
+      <span className="absolute -top-1 -left-1 flex h-4 w-4">
         <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#25D366] opacity-75" />
         <span className="relative inline-flex h-4 w-4 rounded-full bg-[#25D366]" />
       </span>

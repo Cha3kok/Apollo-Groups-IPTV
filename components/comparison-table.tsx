@@ -4,17 +4,17 @@ import { motion } from "framer-motion"
 import { Check, X } from "lucide-react"
 
 const rows = [
-  { feature: "Anti-Freeze IPTV Technology", us: true, others: false },
-  { feature: "4K / UHD IPTV Streaming Quality", us: true, others: false },
-  { feature: "Instant IPTV Activation", us: true, others: false },
-  { feature: "Electronic Program Guide (EPG)", us: true, others: false },
-  { feature: "21,000+ Live IPTV Channels", us: true, others: false },
-  { feature: "65,000+ VOD Movies & Series", us: true, others: false },
-  { feature: "Catch-Up TV & Replay Feature", us: true, others: false },
-  { feature: "24/7 Premium IPTV Support", us: true, others: false },
-  { feature: "99.9% IPTV Server Uptime", us: true, others: false },
-  { feature: "Multi-Device IPTV Streaming", us: true, others: true },
-  { feature: "7-Day IPTV Money Back Guarantee", us: true, others: false },
+  { feature: "טכנולוגיית מניעת תקיעות (Anti-Freeze)", us: true, others: false },
+  { feature: "איכות שידור 4K / UHD", us: true, others: false },
+  { feature: "הפעלת מנוי מיידית", us: true, others: false },
+  { feature: "מדריך שידורים אלקטרוני (EPG)", us: true, others: false },
+  { feature: "מעל 21,000 ערוצים בשידור חי", us: true, others: false },
+  { feature: "מעל 65,000 סרטים וסדרות VOD", us: true, others: false },
+  { feature: "פיצ'ר שחזור (Catch-Up) ושידור חוזר", us: true, others: false },
+  { feature: "תמיכת לקוחות פרימיום 24/7", us: true, others: false },
+  { feature: "זמינות שרתים של 99.9%", us: true, others: false },
+  { feature: "תמיכה במספר מכשירים", us: true, others: true },
+  { feature: "החזר כספי מובטח עד 7 ימים", us: true, others: false },
 ]
 
 export default function ComparisonTable() {
@@ -28,10 +28,10 @@ export default function ComparisonTable() {
           className="text-center"
         >
           <h2 className="text-balance text-3xl font-bold text-foreground sm:text-4xl">
-            Why Choose <span className="text-primary">Apollo Group TV</span> Over Other IPTV Providers?
+            למה לבחור ב-<span className="text-primary">IPTV ישראל</span> על פני ספקי IPTV אחרים?
           </h2>
           <p className="mt-4 text-pretty text-muted-foreground">
-            Compare Apollo Group TV vs other IPTV services. See why thousands of subscribers choose Apollo Group TV as their go-to premium IPTV provider in 2026.
+            בצעו השוואה מהירה בין השירות של IPTV ישראל למתחרים. גלו למה אלפי משתמשים בוחרים בנו כספק המועדף עליהם לשנת 2026.
           </p>
         </motion.div>
 
@@ -46,14 +46,14 @@ export default function ComparisonTable() {
             <table className="w-full">
               <thead>
                 <tr className="border-b border-border/30">
-                  <th className="px-6 py-4 text-left text-sm font-medium text-muted-foreground">
-                    Features
+                  <th className="px-6 py-4 text-right text-sm font-medium text-muted-foreground">
+                    תכונות
                   </th>
                   <th className="px-6 py-4 text-center text-sm font-semibold text-primary">
-                    Apollo Group TV
+                    IPTV ישראל
                   </th>
                   <th className="px-6 py-4 text-center text-sm font-medium text-muted-foreground">
-                    Others
+                    מתחרים אחרים
                   </th>
                 </tr>
               </thead>

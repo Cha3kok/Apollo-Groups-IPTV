@@ -32,7 +32,7 @@ export default function ChannelSearch() {
           viewport={{ once: true }}
           className="text-balance text-3xl font-bold text-foreground sm:text-4xl"
         >
-          Apollo Group TV <span className="text-primary">Channel List</span> - 21,000+ Live Channels
+          IPTV ישראל <span className="text-primary">רשימת ערוצים</span> - מעל 21,000 ערוצים חיים
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -41,7 +41,7 @@ export default function ChannelSearch() {
           transition={{ delay: 0.1 }}
           className="mt-4 text-pretty text-muted-foreground"
         >
-          Browse the full Apollo Group TV channels list featuring premium sports, entertainment, news, kids, and international channels from every country. Our IPTV subscription includes all major networks.
+          עיינו ברשימת הערוצים המלאה של IPTV ישראל הכוללת ספורט פרימיום, בידור, חדשות, תכני ילדים וערוצים בינלאומיים מכל מדינה. המנוי שלנו כולל את כל הרשתות הגדולות.
         </motion.p>
 
         {/* Search bar mockup */}
@@ -53,8 +53,8 @@ export default function ChannelSearch() {
           className="glass mx-auto mt-8 flex max-w-xl items-center gap-3 rounded-2xl px-5 py-4"
         >
           <Search className="h-5 w-5 shrink-0 text-muted-foreground" />
-          <span className="text-left text-sm text-muted-foreground">
-            Search Apollo Group TV channels - sports, movies, series, PPV events...
+          <span className="text-right text-sm text-muted-foreground">
+            חיפוש בערוצי IPTV ישראל - ספורט, סרטים, סדרות, אירועי PPV...
           </span>
         </motion.div>
       </div>

@@ -7,23 +7,23 @@ import { MonitorPlay, Flame, Smartphone, Apple, Download, Settings, Play } from 
 const tabs = [
   {
     id: "smart-tv",
-    label: "Smart TV",
+    label: "טלוויזיה חכמה",
     icon: MonitorPlay,
     steps: [
       {
         icon: Download,
-        title: "Download IPTV Player App",
-        description: "Open your Smart TV app store and install IPTV Smarters Pro, TiviMate, or any compatible IPTV player for your Apollo Group TV subscription.",
+        title: "הורדת יישומון נגן ה-IPTV",
+        description: "פתחו את חנות האפליקציות בטלוויזיה שלכם והתקינו את IPTV Smarters Pro, TiviMate או כל נגן IPTV תואם עבור המנוי שלכם ב-IPTV ישראל.",
       },
       {
         icon: Settings,
-        title: "Enter Apollo Group TV Login",
-        description: "Open the IPTV player and enter the Xtream Codes login credentials we send via WhatsApp after you buy your Apollo Group TV subscription.",
+        title: "הזנת פרטי התחברות ל-IPTV ישראל",
+        description: "פתחו את נגן ה-IPTV והזינו את פרטי ההתחברות (Xtream Codes) שנשלח לכם בוואטסאפ לאחר קניית מנוי ה-IPTV ישראל שלכם.",
       },
       {
         icon: Play,
-        title: "Start Watching IPTV",
-        description: "Browse 21,000+ IPTV channels, pick your favorite sports, movies, or series, and enjoy buffer-free 4K IPTV streaming.",
+        title: "התחילו לצפות בסטרימינג",
+        description: "דפדפו בין 21,000+ ערוצי IPTV, בחרו את ספורט, הסרטים או הסדרות האהובים עליכם, ותהנו מסטרימינג ב-4K ללא תקיעות.",
       },
     ],
   },
@@ -34,62 +34,62 @@ const tabs = [
     steps: [
       {
         icon: Download,
-        title: "Install IPTV on Firestick",
-        description: "Go to Firestick settings, enable 'Apps from Unknown Sources', then install the Downloader app to sideload your Apollo Group TV player.",
+        title: "התקנת IPTV על Firestick",
+        description: "היכנסו להגדרות Firestick, אפשרו 'אפליקציות ממקורות לא ידועים' ואז התקינו את אפליקציית Downloader להורדת נגן IPTV ישראל.",
       },
       {
         icon: Settings,
-        title: "Configure Apollo Group TV",
-        description: "Use the Downloader app to install IPTV Smarters Pro. Enter the Apollo Group TV credentials we provide after purchase.",
+        title: "הגדרת IPTV ישראל",
+        description: "השתמשו באפליקציית Downloader כדי להתקין את IPTV Smarters Pro. הזינו את הפרטים של IPTV ישראל שנספק לאחר הרכישה.",
       },
       {
         icon: Play,
-        title: "Stream IPTV on Firestick",
-        description: "Launch the app and start streaming all 21,000+ Apollo Group TV channels and VOD content on your Firestick instantly.",
+        title: "צפו בסטרימינג ב-Firestick",
+        description: "הפעילו את האפליקציה והתחילו לצפות בכל 21,000+ הערוצים וה-VOD של IPTV ישראל על ה-Firestick שלכם באופן מיידי.",
       },
     ],
   },
   {
     id: "android",
-    label: "Android / MAG",
+    label: "אנדרואיד / MAG",
     icon: Smartphone,
     steps: [
       {
         icon: Download,
-        title: "Download Android IPTV App",
-        description: "Install IPTV Smarters Pro or TiviMate from the Google Play Store on your Android device, tablet, or MAG box for Apollo Group TV.",
+        title: "הורדת יישומון אנדרואיד IPTV",
+        description: "התקינו IPTV Smarters Pro או TiviMate מ-Google Play Store במכשיר האנדרואיד, הטאבלט או ה-MAG שלכם.",
       },
       {
         icon: Settings,
-        title: "Add Apollo Group TV Playlist",
-        description: "Open the IPTV app and add your M3U URL or Xtream Codes login that Apollo Group TV provides after your subscription purchase.",
+        title: "הוספת רשימת השמעה של IPTV ישראל",
+        description: "פתחו את היישומון והוסיפו את כתובת ה-M3U URL או ה-Xtream Codes שתקבלו לאחר הרכישה.",
       },
       {
         icon: Play,
-        title: "Stream IPTV on Android",
-        description: "All Apollo Group TV channels and VOD content load automatically. Enjoy lag-free 4K IPTV streaming on Android.",
+        title: "סטרימינג על אנדרואיד",
+        description: "ערוצי IPTV ישראל ותכני ה-VOD ייטענו אוטומטית. תהנו מסטרימינג 4K חלק באנדרואיד.",
       },
     ],
   },
   {
     id: "apple",
-    label: "Apple / iOS",
+    label: "iOS / מכשירי אפל",
     icon: Apple,
     steps: [
       {
         icon: Download,
-        title: "Get IPTV App for iOS",
-        description: "Download IPTV Smarters or GSE Smart IPTV from the Apple App Store on your iPhone, iPad, or Apple TV to use Apollo Group TV.",
+        title: "הורדת תוכנת IPTV ל-iOS",
+        description: "הורידו את IPTV Smarters או GSE Smart IPTV מ-App Store באייפון, אייפד או Apple TV.",
       },
       {
         icon: Settings,
-        title: "Login to Apollo Group TV",
-        description: "Open the IPTV app and enter the Xtream Codes API login details provided after your Apollo Group TV subscription purchase.",
+        title: "התחברות ל-IPTV ישראל",
+        description: "פתחו את האפליקציה והזינו את ה-Xtream Codes API שיסופקו לכם בעת רכישת המנוי.",
       },
       {
         icon: Play,
-        title: "Watch IPTV on Apple Devices",
-        description: "Stream Apollo Group TV on the go with your Apple device. All 21,000+ IPTV channels and 65,000+ VOD titles at your fingertips.",
+        title: "צפו במכשירי אפל",
+        description: "צפו ב-IPTV ישראל מכל מקום. עשרות אלפי ערוצי IPTV ו-VOD בכף ידכם.",
       },
     ],
   },
@@ -109,10 +109,10 @@ export default function InstallationTabs() {
           className="text-center"
         >
           <h2 className="text-balance text-3xl font-bold text-foreground sm:text-4xl">
-            How to Set Up <span className="text-primary">Apollo Group TV</span> on Any Device
+            כיצד להגדיר את <span className="text-primary">IPTV ישראל</span> על כל מכשיר
           </h2>
           <p className="mt-4 text-pretty text-muted-foreground">
-            Install Apollo Group TV in 3 easy steps on Smart TV, Firestick, Android, iOS, or MAG Box. No technical skills needed. Our IPTV setup guide works for IPTV Smarters, TiviMate, and all popular IPTV players.
+            התקנה ב-3 שלבים פשוטים לטלוויזיות חכמות, Firestick, אנדרואיד, iOS או MAG. אין צורך בכישורים טכניים.
           </p>
         </motion.div>
 

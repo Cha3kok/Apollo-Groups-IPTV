@@ -16,18 +16,16 @@ export default function ResellerCTA() {
         {/* Gradient overlay */}
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-primary/5" />
 
-        <div className="relative z-10 flex flex-col items-center gap-6 text-center lg:flex-row lg:text-left">
+        <div className="relative z-10 flex flex-col items-center gap-6 text-center lg:flex-row lg:text-right">
           <div className="flex-1">
             <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-primary/10">
               <Briefcase className="h-7 w-7 text-primary" />
             </div>
             <h2 className="text-balance text-3xl font-bold text-foreground sm:text-4xl">
-              Become an Apollo Group TV <span className="text-primary">Reseller</span>
+              הפכו ל<span className="text-primary">שותפים</span> של IPTV ישראל
             </h2>
             <p className="mt-3 max-w-lg text-pretty text-muted-foreground">
-              Start your own IPTV reseller business with Apollo Group TV. Get wholesale IPTV pricing,
-              a dedicated reseller panel to manage your IPTV clients, and 24/7 priority support.
-              Join the fastest-growing IPTV reseller program in 2026.
+              הקימו עסק משלכם בתחום ה-IPTV עם IPTV ישראל. קבלו תמחור סיטונאי, פאנל ניהול ייעודי למכירה, ותמיכה זמינה מסביב לשעון.
             </p>
           </div>
 
@@ -37,7 +35,7 @@ export default function ResellerCTA() {
             rel="noopener noreferrer"
             className="neon-glow flex shrink-0 items-center gap-2 rounded-xl bg-primary px-8 py-4 text-base font-semibold text-primary-foreground transition-all hover:brightness-110"
           >
-            Join IPTV Reseller Program
+            הצטרפו לתוכנית השותפים
             <ArrowRight className="h-5 w-5" />
           </Link>
         </div>

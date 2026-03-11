@@ -10,54 +10,54 @@ import {
 
 const faqs = [
   {
-    question: "What is Apollo Group TV and why is it the best IPTV service?",
+    question: "מה זה IPTV ישראל ולמה זה שירות ה-IPTV הטוב ביותר?",
     answer:
-      "Apollo Group TV is a premium IPTV subscription service that provides access to over 21,000 live TV channels and 65,000+ movies and series in 4K UHD quality. Apollo Group TV stands out from other IPTV providers because of our proprietary anti-freeze technology, 99.9% server uptime, and support for all major devices including Smart TVs, Amazon Firestick, Android, iOS, MAG boxes, and PCs. We are rated the #1 IPTV service in 2026 by thousands of satisfied subscribers worldwide.",
+      "IPTV ישראל הוא שירות מנויי IPTV פרימיום המספק גישה ליותר מ-21,000 ערוצי טלוויזיה בשידור חי ו-65,000 סרטים וסדרות באיכות 4K UHD. השירות שלנו בולט בזכות טכנולוגיית מניעת תקיעות ייחודית, זמינות שרת של 99.9%, ותמיכה בכל המכשירים כולל טלוויזיות חכמות, סטרימרים, אנדרואיד, iOS, קופסאות MAG ומחשבים אישיים.",
   },
   {
-    question: "How much does an Apollo Group TV subscription cost?",
+    question: "כמה עולה מנוי של IPTV ישראל?",
     answer:
-      "Apollo Group TV offers three affordable subscription plans: Basic IPTV at $49.99/year for 1 device, Pro IPTV at $69.99/year for 2 devices (our most popular plan), and Elite IPTV at $89.99/year for 3 devices. All Apollo Group TV plans include 21,000+ live channels, 65,000+ VOD, 4K quality, anti-freeze technology, and 24/7 customer support. That is less than $4.17/month for premium IPTV service.",
+      "אנו מציעים חבילות משתלמות המתחילות מ-15.99$ לחודש. כל החבילות של IPTV ישראל כוללות מעל 21,000 ערוצים, VOD נרחב, איכות 4K ותמיכת לקוחות מסביב לשעון.",
   },
   {
-    question: "Does Apollo Group TV offer a free IPTV trial?",
+    question: "האם IPTV ישראל מציע ניסיון IPTV בחינם?",
     answer:
-      "Yes! Apollo Group TV offers a free 24-hour IPTV trial so you can test our IPTV service quality, full channel lineup, VOD library, and streaming stability before committing to a paid IPTV subscription. Contact us on WhatsApp to request your free Apollo Group TV trial instantly.",
+      "כן! אנו מציעים ניסיון IPTV חינם למשך 3 שעות כדי שתוכלו לבדוק את איכות השירות שלנו, מגוון הערוצים ויציבות השידור לפני רכישת מנוי בתשלום. פנו אלינו בוואטסאפ לבקשת ניסיון.",
   },
   {
-    question: "What is the Apollo Group TV refund policy?",
+    question: "מהי מדיניות ההחזרים של IPTV ישראל?",
     answer:
-      "Apollo Group TV offers a 7-day money-back guarantee on all IPTV subscription plans. If you are not 100% satisfied with our IPTV service within the first 7 days, contact our support team for a full refund. No questions asked. We are confident Apollo Group TV is the best IPTV provider you will find.",
+      "אנו מציעים החזר כספי מובטח עד 7 ימים על כל תוכניות המנויים. אם אינכם מרוצים מכל סיבה שהיא ב-7 הימים הראשונים, פנו לתמיכה שלנו וקבלו החזר מלא.",
   },
   {
-    question: "What payment methods does Apollo Group TV accept?",
+    question: "אילו אמצעי תשלום מתקבלים?",
     answer:
-      "Apollo Group TV accepts a wide range of payment methods to make buying your IPTV subscription easy: credit/debit cards (Visa, Mastercard), PayPal, cryptocurrency (Bitcoin, USDT), and bank transfers. Contact us on WhatsApp and we will help you choose the most convenient payment option for your Apollo Group TV subscription.",
+      "אנו מקבלים מגוון אמצעי תשלום, כולל כרטיסי אשראי (Visa, Mastercard), PayPal ומטבעות קריפטוגרפיים (Bitcoin, USDT). פנו אלינו בוואטסאפ להתאמת אפשרות התשלום הנוחה לכם.",
   },
   {
-    question: "Can I use Apollo Group TV on multiple devices at the same time?",
+    question: "האם אני יכול לחבר מספר מכשירים במקביל?",
     answer:
-      "Yes! Apollo Group TV supports multi-device IPTV streaming depending on your plan. The Basic IPTV plan supports 1 device, the Pro IPTV plan supports 2 simultaneous devices, and the Elite IPTV plan supports 3 devices streaming at the same time - perfect for families who want to share one Apollo Group TV subscription.",
+      "כן! IPTV ישראל תומך בחיבור של מספר מכשירים בו-זמנית, בהתאם לחבילה שתבחרו. יש לנו תוכניות המתאימות למכשיר אחד, או תוכניות משפחתיות ליותר מכשירים בסטרימינג מקביל.",
   },
   {
-    question: "What is Apollo Group TV Anti-Freeze Technology?",
+    question: "מהי טכנולוגיית מניעת התקיעות (Anti-Freeze)?",
     answer:
-      "Apollo Group TV uses a proprietary Anti-Freeze v10 engine that ensures completely buffer-free IPTV streaming. This technology automatically optimizes your connection and switches to the best available IPTV server in real-time. This means smooth, uninterrupted IPTV viewing even during peak hours, live sports events, and PPV matches. No other IPTV provider offers this level of streaming reliability.",
+      "מנוע ה-Anti-Freeze v10 הייחודי שלנו מבטיח סטרימינג חלק וללא הפרעות. הטכנולוגיה מנתבת אוטומטית לשרתים הפנויים ביותר בזמן אמת, גם בזמן אירועי ספורט גדולים ועומסים.",
   },
   {
-    question: "How do I install and set up Apollo Group TV on my device?",
+    question: "איך אני מתקין את IPTV ישראל במכשיר שלי?",
     answer:
-      "Setting up Apollo Group TV takes under 5 minutes on any device. After purchasing your IPTV subscription, we send you Xtream Codes login credentials via WhatsApp. Simply download a compatible IPTV player (IPTV Smarters Pro, TiviMate, or GSE Smart IPTV) on your Smart TV, Firestick, Android, iOS, or MAG box, enter your Apollo Group TV credentials, and start streaming instantly. We provide step-by-step IPTV setup guides for every device.",
+      "ההתקנה אורכת פחות מ-5 דקות. לאחר הרכישה, נשלח לכם פרטי התחברות (Xtream Codes) לוואטסאפ. הורידו נגן IPTV מומלץ (כמו IPTV Smarters Pro או TiviMate), הזינו את הפרטים והתחילו לצפות. אנו מספקים מדריכי התקנה מלאים.",
   },
   {
-    question: "What channels are included in the Apollo Group TV channel list?",
+    question: "אילו ערוצים כלולים ב-IPTV ישראל?",
     answer:
-      "Apollo Group TV includes 21,000+ live IPTV channels from every country and category: all premium sports channels (beIN Sports, Sky Sports, ESPN, DAZN), entertainment (HBO, Showtime, Canal+), all major streaming platforms (Netflix, Disney+, Amazon Prime content), news, kids, music, documentary, and international channels. Plus 65,000+ VOD movies and series updated daily. Check our full IPTV channel list for details.",
+      "הרשימה כוללת מעל 21,000 ערוצים מכל העולם, כולל ערוצי ספורט בשידור חי (beIN Sports, Sky Sports ועוד), בידור (HBO, קשת, רשת, ערוץ 14), ערוצי ילדים, חדשות וכן 65,000 סרטים וסדרות מכל פלטפורמות הסטרימינג הגדולות (Netflix, Disney+, Apple TV).",
   },
   {
-    question: "How do I become an Apollo Group TV reseller?",
+    question: "איך אני מצטרף לתוכנית השותפים (Reseller)?",
     answer:
-      "Joining the Apollo Group TV reseller program is easy and profitable. As an IPTV reseller, you get wholesale pricing, a professional reseller panel to manage your IPTV clients, create subscriptions, and track credits. Apollo Group TV provides full reseller training and 24/7 dedicated support. Contact us on WhatsApp to learn about our IPTV reseller packages and start your own IPTV business today.",
+      "ההצטרפות לתכנית קלה ומשתלמת. תקבלו פאנל ניהול מקצועי לניהול הלקוחות שלכם, יצירת מנויים ומעקב אחר קרדיטים בתמחור סיטונאי. פנו אלינו ונתחיל לעבוד יחד.",
   },
 ]
 
@@ -72,10 +72,10 @@ export default function FAQ() {
           className="text-center"
         >
           <h2 className="text-balance text-3xl font-bold text-foreground sm:text-4xl">
-            Apollo Group TV <span className="text-primary">FAQ</span> - Frequently Asked Questions
+            שאלות ותשובות נפוצות על <span className="text-primary">IPTV ישראל</span>
           </h2>
           <p className="mt-4 text-pretty text-muted-foreground">
-            Everything you need to know about Apollo Group TV subscription, setup, pricing, and features. Get answers to the most common questions about our IPTV service.
+            כל מה שצריך לדעת על מנויי IPTV ישראל, תהליך ההתקנה, החבילות והתכונות המובילות.
           </p>
         </motion.div>
 
@@ -93,10 +93,10 @@ export default function FAQ() {
                 value={`item-${index}`}
                 className="glass overflow-hidden rounded-xl border-none px-6"
               >
-                <AccordionTrigger className="py-5 text-left text-sm font-medium text-foreground hover:no-underline sm:text-base">
+                <AccordionTrigger className="py-5 text-right text-sm font-medium text-foreground hover:no-underline sm:text-base">
                   {faq.question}
                 </AccordionTrigger>
-                <AccordionContent className="pb-5 text-sm leading-relaxed text-muted-foreground">
+                <AccordionContent className="pb-5 text-sm leading-relaxed text-muted-foreground text-right">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>

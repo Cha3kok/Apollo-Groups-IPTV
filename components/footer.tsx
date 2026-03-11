@@ -8,28 +8,28 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <span className="text-xl font-bold tracking-tight">
-              <span className="text-white">Apollo</span> <span className="text-green-500">Group TV</span>
+              <span className="text-white">IPTV</span> <span className="text-green-500">ישראל</span>
             </span>
             <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-              Apollo Group TV is the #1 premium IPTV subscription service in 2026.
-              Stream 21,000+ live IPTV channels and 65,000+ VOD movies and series
-              in 4K UHD quality on any device. The best IPTV provider with
-              anti-freeze technology and 99.9% uptime.
+              IPTV ישראל הוא שירות מנויי ה-IPTV המוביל בישראל לשנת 2026.
+              צפו במעל 20,000 ערוצים בשידור חי ו-65,000 סרטים וסדרות
+              באיכות 4K UHD מכל מכשיר. הספק הטוב ביותר עם
+              טכנולוגיה למניעת תקיעות וזמינות של 99.9%.
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
             <h4 className="mb-4 text-sm font-semibold text-foreground">
-              Apollo Group TV Links
+              קישורים מהירים
             </h4>
             <ul className="flex flex-col gap-2.5">
               {[
-                { label: "Apollo Group TV Home", href: "#home" },
-                { label: "IPTV Subscription Pricing", href: "#pricing" },
-                { label: "IPTV Reseller Program", href: "#reseller" },
-                { label: "Contact Apollo Group TV", href: "https://wa.me/212707711512" },
-                { label: "Free IPTV Trial", href: "https://wa.me/212707711512?text=I%20want%20a%2024h%20free%20IPTV%20trial" },
+                { label: "דף הבית", href: "#home" },
+                { label: "מחירון חבילות IPTV", href: "#pricing" },
+                { label: "תוכנית שותפים", href: "#reseller" },
+                { label: "צור קשר", href: "https://wa.me/212707711512" },
+                { label: "ניסיון IPTV חינם", href: "https://wa.me/212707711512?text=I%20want%20a%2024h%20free%20IPTV%20trial" },
               ].map((link) => (
                 <li key={link.label}>
                   <Link
@@ -46,15 +46,15 @@ export default function Footer() {
           {/* Devices */}
           <div>
             <h4 className="mb-4 text-sm font-semibold text-foreground">
-              IPTV Compatible Devices
+              מכשירים נתמכים
             </h4>
             <ul className="flex flex-col gap-2.5">
               {[
-                "Smart TV IPTV (Samsung, LG)",
-                "Amazon Firestick IPTV",
-                "Android IPTV / MAG Box",
-                "Apple TV / iPhone IPTV",
-                "PC / Mac IPTV Streaming",
+                "טלוויזיה חכמה (Samsung, LG)",
+                "Amazon Firestick",
+                "Android TV / MAG Box",
+                "Apple TV / מכשירי iOS",
+                "מחשב אישי (PC / Mac)",
               ].map((device) => (
                 <li
                   key={device}
@@ -69,7 +69,7 @@ export default function Footer() {
           {/* Contact */}
           <div>
             <h4 className="mb-4 text-sm font-semibold text-foreground">
-              Contact Apollo Group TV
+              יצירת קשר עם IPTV ישראל
             </h4>
             <ul className="flex flex-col gap-2.5">
               <li>
@@ -83,13 +83,13 @@ export default function Footer() {
                 </Link>
               </li>
               <li className="text-sm text-muted-foreground">
-                24/7 IPTV Customer Support
+                תמיכת לקוחות IPTV פועלת 24/7
               </li>
               <li className="text-sm text-muted-foreground">
-                7-Day Money Back Guarantee
+                החזר כספי מובטח עד 7 ימים
               </li>
               <li className="text-sm text-muted-foreground">
-                Instant IPTV Activation
+                הפעלת מנוי מיידית
               </li>
             </ul>
           </div>
@@ -98,7 +98,7 @@ export default function Footer() {
         {/* SEO-rich footer text */}
         <div className="mt-10 border-t border-border/30 pt-6">
           <p className="text-center text-xs leading-relaxed text-muted-foreground">
-            {"\u00A9"} {new Date().getFullYear()} Apollo Group TV - Best Premium IPTV Subscription Service. All rights reserved. Apollo Group TV provides the highest quality IPTV streaming experience with 21,000+ live channels, 65,000+ movies and series, 4K UHD quality, anti-freeze technology, and support for Smart TV, Firestick, Android, iOS, and MAG Box. Apollo Group TV is not affiliated with any third-party streaming platforms.
+            {"\u00A9"} {new Date().getFullYear()} IPTV ישראל - שירות מנויי ה-IPTV פרימיום הטוב ביותר בישראל. כל הזכויות שמורות. IPTV ישראל מספקת את חוויית הצפייה האיכותית ביותר בטלוויזיה עם למעלה מ-20,000 ערוצים בשידור חי, 65,000 סרטים וסדרות, קומולציית 4K UHD, וטכנולוגיית מניעת תקיעות. תמיכה בטלוויזיות חכמות, Android, iOS ו-MAG Box. השירות אינו מזוהה עם פלטפורמות סטרימינג צד-שלישי.
           </p>
         </div>
       </div>

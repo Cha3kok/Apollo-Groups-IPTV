@@ -31,10 +31,10 @@ export default function Pricing() {
           className="text-center"
         >
           <h2 className="text-balance text-3xl font-bold text-foreground sm:text-4xl">
-            Apollo Group TV <span className="text-primary">Subscription Plans</span> & Pricing 2026
+            <span className="text-primary">מנוי IPTV</span> ערוצי ספורט בשידור חי - חבילות ומחירים 2026
           </h2>
           <p className="mt-4 text-pretty text-muted-foreground">
-            Buy the best IPTV subscription at affordable prices. Experience premium streaming with 21,000+ channels, 65,000+ VOD, and anti-freeze technology included.
+            קנו את מנוי ה-IPTV הטוב ביותר במחירים משתלמים. חוויית סטרימינג פרימיום עם למעלה מ-21,000 ערוצים, 65,000 כותרי VOD וטכנולוגיה למניעת תקיעות.
           </p>
         </motion.div>
 
@@ -76,7 +76,7 @@ export default function Pricing() {
                 >
                   {plan.popular && (
                     <div className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-secondary px-3 py-1 text-[10px] font-bold tracking-wider text-secondary-foreground shadow-sm shadow-secondary/20">
-                      MOST POPULAR
+                      הכי פופולרי
                     </div>
                   )}
 
@@ -92,12 +92,12 @@ export default function Pricing() {
 
                   <div className="mb-6 text-center">
                     <span className="text-3xl font-bold text-foreground">
-                      ${plan.price}
+                      ₪{plan.price}
                     </span>
-                    <span className="text-sm text-muted-foreground"> / {plan.durationMonths === 1 ? 'mo' : plan.durationMonths + 'mos'}</span>
+                    <span className="text-sm text-muted-foreground"> / {plan.durationMonths === 1 ? 'חודש' : plan.durationMonths + ' חודשים'}</span>
                   </div>
 
-                  <ul className="mb-8 flex flex-1 flex-col gap-3 text-left">
+                  <ul className="mb-8 flex flex-1 flex-col gap-3 text-right">
                     {plan.features.map((feature) => (
                       <li
                         key={feature}
@@ -110,7 +110,7 @@ export default function Pricing() {
                   </ul>
 
                   <Link
-                    href={`${settings?.supportWhatsAppUrl || 'https://wa.me/212707711512'}?text=Hello%20Apollo%20Group%20TV,%20I%20want%20to%20subscribe%20to%20the%20${encodeURIComponent(plan.name)}%20plan.`}
+                    href={`${settings?.supportWhatsAppUrl || 'https://wa.me/212707711512'}?text=שלום%20IPTV%20ישראל,%20אני%20מעוניין%20במנוי%20${encodeURIComponent(plan.name)}.`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`mt-auto rounded-xl py-3 text-center text-sm font-semibold transition-all ${plan.popular
@@ -118,7 +118,7 @@ export default function Pricing() {
                         : "border border-border text-foreground hover:border-primary/50 hover:bg-primary/5"
                       }`}
                   >
-                    Order Now
+                    קנה עכשיו
                   </Link>
                 </motion.div>
               )
@@ -135,30 +135,30 @@ export default function Pricing() {
         >
           <div className="flex items-center gap-3">
             <Shield className="h-8 w-8 text-primary" />
-            <div className="text-left">
-              <p className="text-sm font-bold text-foreground">100% Secure Checkout</p>
-              <p className="text-xs text-muted-foreground">256-bit SSL Encryption</p>
+            <div className="text-right">
+              <p className="text-sm font-bold text-foreground">רכישה מאובטחת 100%</p>
+              <p className="text-xs text-muted-foreground">הצפנת SSL 256-bit</p>
             </div>
           </div>
           <div className="flex items-center gap-3">
             <Zap className="h-8 w-8 text-primary" />
-            <div className="text-left">
-              <p className="text-sm font-bold text-foreground">Instant Delivery</p>
-              <p className="text-xs text-muted-foreground">Via WhatsApp</p>
+            <div className="text-right">
+              <p className="text-sm font-bold text-foreground">אספקה מיידית</p>
+              <p className="text-xs text-muted-foreground">דרך WhatsApp</p>
             </div>
           </div>
           <div className="flex items-center gap-3">
             <Check className="h-8 w-8 text-primary" />
-            <div className="text-left">
-              <p className="text-sm font-bold text-foreground">7-Day Guarantee</p>
-              <p className="text-xs text-muted-foreground">Money-Back Promise</p>
+            <div className="text-right">
+              <p className="text-sm font-bold text-foreground">אחריות ל-7 ימים</p>
+              <p className="text-xs text-muted-foreground">הבטחה להחזר כספי</p>
             </div>
           </div>
           <div className="flex items-center gap-3">
             <MonitorPlay className="h-8 w-8 text-primary" />
-            <div className="text-left">
-              <p className="text-sm font-bold text-foreground">24/7 Support</p>
-              <p className="text-xs text-muted-foreground">Priority Help</p>
+            <div className="text-right">
+              <p className="text-sm font-bold text-foreground">תמיכה 24/7</p>
+              <p className="text-xs text-muted-foreground">עזרה ותמיכה טכנית</p>
             </div>
           </div>
         </motion.div>

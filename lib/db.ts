@@ -24,83 +24,83 @@ export class AntigravityDB {
     await new Promise((resolve) => setTimeout(resolve, 800));
 
     const standardFeatures = [
-      "+21,000 Live Channels (Local & International)",
-      "+65,000 VOD Movies & Series (Daily Updates)",
-      "4K / UHD / FHD Streaming Quality",
-      "All Premium Sports Channels & PPV Events",
-      "Anti-Freeze Technology & No Buffering",
-      "24/7 Priority Customer Support",
-      "Full EPG (Electronic Program Guide)",
-      "Compatible with All Devices (Smart TV, Android, iOS, Mag, Firestick)"
+      "מעל 21,000 ערוצים בשידור חי (מקומי ובינלאומי)",
+      "מעל 65,000 סרטים וסדרות VOD (עדכונים יומיים)",
+      "איכות סטרימינג 4K / UHD / FHD",
+      "כל ערוצי הספורט במנוי פרימיום ואירועי PPV",
+      "טכנולוגיית מניעת תקיעות ושידור חלק מבאפרים",
+      "תמיכת לקוחות פריורית 24/7",
+      "מדריך שידורים מלא (EPG)",
+      "תואם לכל המכשירים (טלוויזיה חכמה, Android, iOS, Mag, Firestick)"
     ];
 
     return [
       {
         id: "plan-1m",
-        name: "1 Month",
-        subtitle: "1 Device Connection",
+        name: "1 חודש",
+        subtitle: "חיבור למכשיר אחד",
         price: "15.99",
         durationMonths: 1,
         iconName: "MonitorPlay",
         popular: false,
         features: [
-          "Best for Testing Service",
+          "הכי מומלץ לבדיקת השירות",
           ...standardFeatures
         ],
       },
       {
         id: "plan-3m",
-        name: "3 Months",
-        subtitle: "1 Device Connection",
+        name: "3 חודשים",
+        subtitle: "חיבור למכשיר אחד",
         price: "35.99",
         durationMonths: 3,
         iconName: "Zap",
         popular: false,
         features: [
-          "Smart Choice - Save 25%",
+          "בחירה חכמה - חסוך 25%",
           ...standardFeatures
         ],
       },
       {
         id: "plan-6m",
-        name: "6 Months",
-        subtitle: "1 Device Connection",
+        name: "6 חודשים",
+        subtitle: "חיבור למכשיר אחד",
         price: "59.99",
         durationMonths: 6,
         iconName: "Shield",
         popular: false,
         features: [
-          "Great Value - Save 37%",
-          "Includes 7 Days Catch-Up",
+          "תמורה מצוינת - חסוך 37%",
+          "כולל 7 ימי שחזור תכנים (Catch-Up)",
           ...standardFeatures
         ],
       },
       {
         id: "plan-12m",
-        name: "12 Months",
-        subtitle: "1 Device Connection",
+        name: "12 חודשים",
+        subtitle: "חיבור למכשיר אחד",
         price: "89.99",
         durationMonths: 12,
         iconName: "Star",
         popular: true,
         features: [
-          "Most Popular - Save 53%",
-          "Instant Activation",
+          "הכי פופולרי - חסוך 53%",
+          "הפעלה מיידית",
           ...standardFeatures
         ],
       },
       {
         id: "plan-24m",
-        name: "24 Months",
-        subtitle: "1 Device Connection",
+        name: "24 חודשים",
+        subtitle: "חיבור למכשיר אחד",
         price: "139.99",
         durationMonths: 24,
         iconName: "Crown",
         popular: false,
         features: [
-          "Ultimate Plan - Best Price",
-          "Zero Downtime Guarantee",
-          "VIP Support",
+          "התוכנית האולטימטיבית - המחיר הטוב ביותר",
+          "אחריות לאפס תקלות בשידור",
+          "תמיכת VIP",
           ...standardFeatures
         ],
       },

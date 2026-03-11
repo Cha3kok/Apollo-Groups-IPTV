@@ -1,21 +1,22 @@
 import type { Metadata, Viewport } from 'next'
-import { Inter, Geist_Mono } from 'next/font/google'
+import { Heebo, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
+const heebo = Heebo({ subsets: ['hebrew'], variable: '--font-heebo' })
 const geistMono = Geist_Mono({ subsets: ['latin'], variable: '--font-geist-mono' })
 
 export const metadata: Metadata = {
-  title: 'Apollo Group TV | #1 Best Premium IPTV Service 2026 - 21,000+ Channels in 4K',
+  title: 'IPTV ישראל - שידורי טלוויזיה באיכות 4K',
   description:
-    'Apollo Group TV is the best premium IPTV subscription service in 2026. Stream 21,000+ live channels and 65,000+ movies & series in 4K UHD. No buffering, 99.9% uptime. Works on Smart TV, Firestick, Android, iOS & MAG. Try a 3h free IPTV trial today!',
+    'הצטרפו ל-IPTV ישראל, שירות ה-IPTV המוביל בארץ. מעל 20,000 ערוצים, סרטים וספורט בשידור חי ב-4K. תמיכה ב-WhatsApp 24/7. הירשם עכשיו!',
   keywords: [
-    'Apollo Group TV',
-    'Apollo Group TV',
+    'IPTV ישראל',
+    'מנוי IPTV',
+    'IPTV ישראל',
     'best IPTV service',
-    'best IPTV service 2026',
     'premium IPTV subscription',
+    'ערוצי ספורט בשידור חי',
     'buy IPTV',
     'IPTV provider',
     'IPTV 4K',
@@ -30,25 +31,25 @@ export const metadata: Metadata = {
     'IPTV reseller',
   ],
   openGraph: {
-    title: 'Apollo Group TV | #1 Best Premium IPTV Service 2026',
+    title: 'IPTV ישראל - שידורי טלוויזיה באיכות 4K',
     description:
-      'Stream 21,000+ live channels and 65,000+ movies in 4K UHD with Apollo Group TV. The most reliable IPTV subscription service with anti-freeze technology and 99.9% uptime.',
+      'הצטרפו ל-IPTV ישראל, שירות ה-IPTV המוביל בארץ. מעל 20,000 ערוצים, סרטים וספורט בשידור חי ב-4K. תמיכה ב-WhatsApp 24/7. הירשם עכשיו!',
     type: 'website',
-    locale: 'en_US',
-    siteName: 'Apollo Group TV',
+    locale: 'he_IL',
+    siteName: 'IPTV ישראל',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Apollo Group TV | Best Premium IPTV Subscription 2026',
+    title: 'IPTV ישראל - שידורי טלוויזיה באיכות 4K',
     description:
-      'The #1 IPTV service with 21,000+ channels, 65,000+ VOD, anti-freeze tech & 4K quality. Try Apollo Group TV free for 24 hours.',
+      'הצטרפו ל-IPTV ישראל, שירות ה-IPTV המוביל בארץ. מעל 20,000 ערוצים, סרטים וספורט בשידור חי ב-4K. תמיכה ב-WhatsApp 24/7. הירשם עכשיו!',
   },
   robots: {
     index: true,
     follow: true,
   },
   alternates: {
-    canonical: 'https://appoloiptv.com',
+    canonical: 'https://iptv.co.il',
   },
 }
 
@@ -64,8 +65,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${geistMono.variable}`}>
-      <body className="font-sans antialiased">
+    <html lang="he" dir="rtl" className={`${heebo.variable} ${geistMono.variable}`}>
+      <body className="font-sans antialiased text-right">
         {children}
         <Analytics />
       </body>

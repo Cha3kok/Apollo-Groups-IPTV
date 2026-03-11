@@ -26,7 +26,7 @@ export default function Hero() {
         >
           <Zap className="h-4 w-4 text-primary" />
           <span className="text-sm font-medium text-primary">
-            #1 Best IPTV Service 2026 - Buffer-Free 4K Streaming
+            שירות ה-IPTV המוביל לשנת 2026 - סטרימינג 4K ללא תקיעות
           </span>
         </motion.div>
 
@@ -37,10 +37,10 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="text-balance text-4xl font-bold leading-tight tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl"
         >
-          Apollo Group TV:{" "}
-          <span className="text-primary">Premium IPTV Subscription</span>
+          IPTV ישראל: חוויית צפייה{" "}
+          <span className="text-primary">המתקדמת ביותר</span>
           <br />
-          <span className="text-muted-foreground">With 21,000+ Live Channels in 4K</span>
+          <span className="text-muted-foreground">עם גישה ליותר מ-21,000 ערוצים ב-4K</span>
         </motion.h1>
 
         {/* Sub-headline with LSI keywords */}
@@ -50,8 +50,8 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="mx-auto mt-6 max-w-2xl text-pretty text-lg text-muted-foreground sm:text-xl"
         >
-          Apollo Group TV is the best IPTV provider for streaming live TV, sports, movies, and series.
-          Enjoy 65,000+ VOD titles, anti-freeze technology, and 99.9% uptime on every device.
+          IPTV ישראל הוא ספק ה-IPTV האיכותי והמתקדם בישראל לסטרימינג של ערוצי טלוויזיה, ספורט וסרטים. 
+          תיהנו מצפייה חלקה ויציבה, ללא בּאפרים (No Buffering), עם איכות תמונה ב-4K וזמינות של 99.9%.
         </motion.p>
 
         {/* CTAs */}
@@ -68,7 +68,7 @@ export default function Hero() {
             className="neon-glow flex items-center gap-2 rounded-xl bg-primary px-8 py-4 text-base font-semibold text-primary-foreground transition-all hover:brightness-110"
           >
             <Zap className="h-5 w-5" />
-            Buy IPTV Subscription Now
+            קנה עכשיו
           </Link>
 
           <Link
@@ -78,7 +78,7 @@ export default function Hero() {
             className="flex items-center gap-2 rounded-xl border border-border px-8 py-4 text-base font-semibold text-foreground transition-all hover:border-primary/50 hover:bg-primary/5"
           >
             <Play className="h-5 w-5" />
-            Try Free IPTV Trial - 3 h
+            ניסיון חינם
           </Link>
         </motion.div>
 
