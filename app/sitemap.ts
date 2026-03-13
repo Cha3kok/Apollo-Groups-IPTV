@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://iptv.co.il'
+    const baseUrl = 'https://apollogroupsiptv.com'
 
     return [
         {
@@ -16,6 +16,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
             changeFrequency: 'weekly',
             priority: 0.8,
         },
-        // הוסף דפים נוספים כאן אם צריך
+        // Add more pages here as needed
     ]
 }

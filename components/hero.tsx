@@ -26,7 +26,7 @@ export default function Hero() {
         >
           <Zap className="h-4 w-4 text-primary" />
           <span className="text-sm font-medium text-primary">
-            שירות ה-IPTV המוביל לשנת 2026 - סטרימינג 4K ללא תקיעות
+            Apollo Groups — #1 IPTV Provider 2026 · 4K Streaming · Zero Buffering
           </span>
         </motion.div>
 
@@ -37,21 +37,21 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="text-balance text-4xl font-bold leading-tight tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl"
         >
-          IPTV ישראל: חוויית צפייה{" "}
-          <span className="text-primary">המתקדמת ביותר</span>
+          Apollo Groups:{" "}
+          <span className="text-primary">The Most Advanced</span>
           <br />
-          <span className="text-muted-foreground">עם גישה ליותר מ-21,000 ערוצים ב-4K</span>
+          <span className="text-muted-foreground">Streaming Experience in 2026</span>
         </motion.h1>
 
-        {/* Sub-headline with LSI keywords */}
+        {/* Sub-headline */}
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
           className="mx-auto mt-6 max-w-2xl text-pretty text-lg text-muted-foreground sm:text-xl"
         >
-          IPTV ישראל הוא ספק ה-IPTV האיכותי והמתקדם בישראל לסטרימינג של ערוצי טלוויזיה, ספורט וסרטים. 
-          תיהנו מצפייה חלקה ויציבה, ללא בּאפרים (No Buffering), עם איכות תמונה ב-4K וזמינות של 99.9%.
+          Apollo Groups is the most advanced streaming provider with 49,000+ live TV channels,
+          65,000+ movies & series, crystal-clear 4K UHD quality, and 99.9% uptime guaranteed.
         </motion.p>
 
         {/* CTAs */}
@@ -68,21 +68,21 @@ export default function Hero() {
             className="neon-glow flex items-center gap-2 rounded-xl bg-primary px-8 py-4 text-base font-semibold text-primary-foreground transition-all hover:brightness-110"
           >
             <Zap className="h-5 w-5" />
-            קנה עכשיו
+            Subscribe Now
           </Link>
 
           <Link
-            href="https://wa.me/212707711512?text=I%20want%20a%203h%20free%20IPTV%20trial"
+            href="https://wa.me/212707711512?text=I%20want%20a%203h%20free%20Apollo%20Groups%20trial"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 rounded-xl border border-border px-8 py-4 text-base font-semibold text-foreground transition-all hover:border-primary/50 hover:bg-primary/5"
           >
             <Play className="h-5 w-5" />
-            ניסיון חינם
+            Free Trial
           </Link>
         </motion.div>
 
-        {/* Supported devices - SEO friendly labels */}
+        {/* Supported devices */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -95,7 +95,7 @@ export default function Hero() {
             "Android IPTV",
             "iOS IPTV",
             "MAG Box IPTV",
-            "PC IPTV",
+            "PC / Mac IPTV",
           ].map((device) => (
             <span
               key={device}

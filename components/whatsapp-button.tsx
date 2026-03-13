@@ -16,7 +16,7 @@ export default function WhatsAppButton() {
         href="https://wa.me/212707711512"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Contact us on WhatsApp"
+        aria-label="Contact Apollo Groups on WhatsApp"
         className="group flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] shadow-lg shadow-[#25D366]/30 transition-all hover:scale-110 hover:shadow-xl hover:shadow-[#25D366]/40"
       >
         <MessageCircle className="h-7 w-7 text-[#ffffff]" />

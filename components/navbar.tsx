@@ -6,18 +6,18 @@ import { Menu, X, ChevronDown, Globe } from "lucide-react"
 import Link from "next/link"
 
 const navLinks = [
-  { label: "דף הבית", href: "/" },
-  { label: "רשימת ערוצים", href: "/channels-list" },
-  { label: "חבילות", href: "/#pricing" },
-  { label: "תוכנית שותפים", href: "/#reseller" },
-  { label: "צור קשר", href: "https://wa.me/212707711512" },
+  { label: "Home", href: "/" },
+  { label: "Channel List", href: "/channels-list" },
+  { label: "Pricing", href: "/#pricing" },
+  { label: "Reseller Program", href: "/#reseller" },
+  { label: "Contact Us", href: "https://wa.me/212707711512" },
 ]
 
 const languages = [
   { code: "EN", label: "English", flag: "🇬🇧" },
-  { code: "FR", label: "Fran\u00e7ais", flag: "🇫🇷" },
-  { code: "AR", label: "\u0627\u0644\u0639\u0631\u0628\u064a\u0629", flag: "🇲🇦" },
-  { code: "ES", label: "Espa\u00f1ol", flag: "🇪🇸" },
+  { code: "FR", label: "Français", flag: "🇫🇷" },
+  { code: "AR", label: "العربية", flag: "🇲🇦" },
+  { code: "ES", label: "Español", flag: "🇪🇸" },
 ]
 
 export default function Navbar() {
@@ -37,7 +37,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
             <h1 className="text-xl font-bold tracking-tight">
-              <span className="text-white">IPTV</span> <span className="text-green-500">ישראל</span>
+              <span className="text-white">Apollo Groups</span>
             </h1>
           </Link>
 
@@ -72,7 +72,7 @@ export default function Navbar() {
                     initial={{ opacity: 0, y: -8 }}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -8 }}
-                    className="glass absolute end-0 mt-2 w-40 overflow-hidden rounded-lg"
+                    className="glass absolute right-0 mt-2 w-40 overflow-hidden rounded-lg"
                   >
                     {languages.map((lang) => (
                       <button
@@ -99,7 +99,7 @@ export default function Navbar() {
               rel="noopener noreferrer"
               className="neon-glow rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground transition-all hover:brightness-110"
             >
-              קנה עכשיו
+              Get Started
             </Link>
           </div>
 
@@ -154,7 +154,7 @@ export default function Navbar() {
                 rel="noopener noreferrer"
                 className="neon-glow mt-2 rounded-lg bg-primary px-4 py-2.5 text-center text-sm font-semibold text-primary-foreground"
               >
-                קנה עכשיו
+                Get Started
               </Link>
             </div>
           </motion.div>

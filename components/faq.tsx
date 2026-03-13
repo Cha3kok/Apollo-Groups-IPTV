@@ -10,54 +10,54 @@ import {
 
 const faqs = [
   {
-    question: "מה זה IPTV ישראל ולמה זה שירות ה-IPTV הטוב ביותר?",
+    question: "What is Apollo Groups and why is it the best IPTV service?",
     answer:
-      "IPTV ישראל הוא שירות מנויי IPTV פרימיום המספק גישה ליותר מ-21,000 ערוצי טלוויזיה בשידור חי ו-65,000 סרטים וסדרות באיכות 4K UHD. השירות שלנו בולט בזכות טכנולוגיית מניעת תקיעות ייחודית, זמינות שרת של 99.9%, ותמיכה בכל המכשירים כולל טלוויזיות חכמות, סטרימרים, אנדרואיד, iOS, קופסאות MAG ומחשבים אישיים.",
+      "Apollo Groups is a premium IPTV subscription service providing access to 49,000+ live TV channels and 65,000+ movies and series in 4K UHD quality. We stand out with our unique anti-freeze technology, 99.9% server uptime, and support for all devices including Smart TVs, streamers, Android, iOS, MAG boxes, and PCs.",
   },
   {
-    question: "כמה עולה מנוי של IPTV ישראל?",
+    question: "How much does an Apollo Groups subscription cost?",
     answer:
-      "אנו מציעים חבילות משתלמות המתחילות מ-15.99$ לחודש. כל החבילות של IPTV ישראל כוללות מעל 21,000 ערוצים, VOD נרחב, איכות 4K ותמיכת לקוחות מסביב לשעון.",
+      "We offer affordable plans starting from $15.99/month. All Apollo Groups plans include 49,000+ channels, extensive VOD library, 4K quality, and round-the-clock customer support.",
   },
   {
-    question: "האם IPTV ישראל מציע ניסיון IPTV בחינם?",
+    question: "Does Apollo Groups offer a free trial?",
     answer:
-      "כן! אנו מציעים ניסיון IPTV חינם למשך 3 שעות כדי שתוכלו לבדוק את איכות השירות שלנו, מגוון הערוצים ויציבות השידור לפני רכישת מנוי בתשלום. פנו אלינו בוואטסאפ לבקשת ניסיון.",
+      "Yes! We offer a free 3-hour IPTV trial so you can test our service quality, channel variety, and streaming stability before purchasing a paid subscription. Contact us on WhatsApp to request your trial.",
   },
   {
-    question: "מהי מדיניות ההחזרים של IPTV ישראל?",
+    question: "What is Apollo Groups's refund policy?",
     answer:
-      "אנו מציעים החזר כספי מובטח עד 7 ימים על כל תוכניות המנויים. אם אינכם מרוצים מכל סיבה שהיא ב-7 הימים הראשונים, פנו לתמיכה שלנו וקבלו החזר מלא.",
+      "We offer a guaranteed 7-day money-back refund on all subscription plans. If you're not satisfied for any reason within the first 7 days, contact our support team and receive a full refund.",
   },
   {
-    question: "אילו אמצעי תשלום מתקבלים?",
+    question: "What payment methods are accepted?",
     answer:
-      "אנו מקבלים מגוון אמצעי תשלום, כולל כרטיסי אשראי (Visa, Mastercard), PayPal ומטבעות קריפטוגרפיים (Bitcoin, USDT). פנו אלינו בוואטסאפ להתאמת אפשרות התשלום הנוחה לכם.",
+      "We accept a variety of payment methods including credit cards (Visa, Mastercard), PayPal, and cryptocurrencies (Bitcoin, USDT). Contact us on WhatsApp to arrange the payment option that works best for you.",
   },
   {
-    question: "האם אני יכול לחבר מספר מכשירים במקביל?",
+    question: "Can I connect multiple devices at the same time?",
     answer:
-      "כן! IPTV ישראל תומך בחיבור של מספר מכשירים בו-זמנית, בהתאם לחבילה שתבחרו. יש לנו תוכניות המתאימות למכשיר אחד, או תוכניות משפחתיות ליותר מכשירים בסטרימינג מקביל.",
+      "Yes! Apollo Groups supports simultaneous connections depending on the plan you choose. We have plans for single-device use as well as family plans for multiple simultaneous streams.",
   },
   {
-    question: "מהי טכנולוגיית מניעת התקיעות (Anti-Freeze)?",
+    question: "What is the Anti-Freeze technology?",
     answer:
-      "מנוע ה-Anti-Freeze v10 הייחודי שלנו מבטיח סטרימינג חלק וללא הפרעות. הטכנולוגיה מנתבת אוטומטית לשרתים הפנויים ביותר בזמן אמת, גם בזמן אירועי ספורט גדולים ועומסים.",
+      "Our proprietary Anti-Freeze v10 engine ensures smooth, uninterrupted streaming. The technology automatically routes traffic to the most available servers in real time — even during major sports events and peak load periods.",
   },
   {
-    question: "איך אני מתקין את IPTV ישראל במכשיר שלי?",
+    question: "How do I install Apollo Groups on my device?",
     answer:
-      "ההתקנה אורכת פחות מ-5 דקות. לאחר הרכישה, נשלח לכם פרטי התחברות (Xtream Codes) לוואטסאפ. הורידו נגן IPTV מומלץ (כמו IPTV Smarters Pro או TiviMate), הזינו את הפרטים והתחילו לצפות. אנו מספקים מדריכי התקנה מלאים.",
+      "Setup takes under 5 minutes. After purchase, we'll send your login credentials (Xtream Codes) via WhatsApp. Download a recommended IPTV player (like IPTV Smarters Pro or TiviMate), enter your details, and start streaming. We provide full setup guides.",
   },
   {
-    question: "אילו ערוצים כלולים ב-IPTV ישראל?",
+    question: "What channels are included in Apollo Groups?",
     answer:
-      "הרשימה כוללת מעל 21,000 ערוצים מכל העולם, כולל ערוצי ספורט בשידור חי (beIN Sports, Sky Sports ועוד), בידור (HBO, קשת, רשת, ערוץ 14), ערוצי ילדים, חדשות וכן 65,000 סרטים וסדרות מכל פלטפורמות הסטרימינג הגדולות (Netflix, Disney+, Apple TV).",
+      "The lineup includes 49,000+ channels from around the world — live sports (beIN Sports, Sky Sports and more), entertainment (HBO, Showtime, BBC, etc.), kids channels, news, plus 65,000+ movies and series from all major streaming platforms (Netflix, Disney+, Apple TV).",
   },
   {
-    question: "איך אני מצטרף לתוכנית השותפים (Reseller)?",
+    question: "How do I join the Reseller / Affiliate Program?",
     answer:
-      "ההצטרפות לתכנית קלה ומשתלמת. תקבלו פאנל ניהול מקצועי לניהול הלקוחות שלכם, יצירת מנויים ומעקב אחר קרדיטים בתמחור סיטונאי. פנו אלינו ונתחיל לעבוד יחד.",
+      "Joining is easy and profitable. You'll receive a professional management panel to handle your clients, create subscriptions, and track credits at wholesale pricing. Contact us and let's start working together.",
   },
 ]
 
@@ -72,10 +72,10 @@ export default function FAQ() {
           className="text-center"
         >
           <h2 className="text-balance text-3xl font-bold text-foreground sm:text-4xl">
-            שאלות ותשובות נפוצות על <span className="text-primary">IPTV ישראל</span>
+            Frequently Asked Questions about <span className="text-primary">Apollo Groups</span>
           </h2>
           <p className="mt-4 text-pretty text-muted-foreground">
-            כל מה שצריך לדעת על מנויי IPTV ישראל, תהליך ההתקנה, החבילות והתכונות המובילות.
+            Everything you need to know about Apollo Groups — subscriptions, setup, channels, and features.
           </p>
         </motion.div>
 
@@ -93,10 +93,10 @@ export default function FAQ() {
                 value={`item-${index}`}
                 className="glass overflow-hidden rounded-xl border-none px-6"
               >
-                <AccordionTrigger className="py-5 text-right text-sm font-medium text-foreground hover:no-underline sm:text-base">
+                <AccordionTrigger className="py-5 text-left text-sm font-medium text-foreground hover:no-underline sm:text-base">
                   {faq.question}
                 </AccordionTrigger>
-                <AccordionContent className="pb-5 text-sm leading-relaxed text-muted-foreground text-right">
+                <AccordionContent className="pb-5 text-sm leading-relaxed text-muted-foreground text-left">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>

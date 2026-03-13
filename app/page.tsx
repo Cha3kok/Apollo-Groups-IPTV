@@ -13,15 +13,15 @@ import WhatsAppButton from "@/components/whatsapp-button"
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "IPTV ישראל",
-  url: "https://iptv.co.il",
+  name: "Apollo Groups",
+  url: "https://apollogroupsiptv.com",
   description:
-    "IPTV ישראל הוא ספק ה-IPTV המוביל בישראל לשנת 2026. צפו במעל 20,000 ערוצים חיים ו-65,000 סרטים וסדרות באיכות 4K UHD מכל מכשיר.",
+    "Apollo Groups is the leading IPTV provider in 2026. Watch 49,000+ live channels and 65,000+ movies & series in 4K UHD on any device.",
   contactPoint: {
     "@type": "ContactPoint",
     telephone: "+212-707-711-512",
     contactType: "customer service",
-    availableLanguage: ["English", "Hebrew", "French", "Arabic", "Spanish"],
+    availableLanguage: ["English", "French", "Arabic", "Spanish"],
   },
 }
 
@@ -31,42 +31,42 @@ const faqJsonLd = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "מה זה IPTV ישראל ולמה זה שירות ה-IPTV הטוב ביותר?",
+      name: "What is Apollo Groups and why is it the best IPTV service?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "IPTV ישראל הוא שירות מנויי IPTV פרימיום המספק גישה ליותר מ-21,000 ערוצי טלוויזיה בשידור חי ו-65,000 סרטים וסדרות באיכות 4K UHD.",
+        text: "Apollo Groups is a premium IPTV subscription service providing access to 49,000+ live TV channels and 65,000+ movies and series in 4K UHD quality.",
       },
     },
     {
       "@type": "Question",
-      name: "כמה עולה מנוי של IPTV ישראל?",
+      name: "How much does an Apollo Groups subscription cost?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "IPTV ישראל מציע חמש תוכניות גמישות: 15.99$ לחודש, 35.99$ ל-3 חודשים, 59.99$ ל-6 חודשים, 89.99$ לשנה ו-139.99$ לשנתיים. כל החבילות כוללות ערוצים, VOD ואיכות 4K.",
+        text: "Apollo Groups offers five flexible plans: $15.99/month, $35.99 for 3 months, $59.99 for 6 months, $89.99 for 12 months, and $139.99 for 24 months.",
       },
     },
     {
       "@type": "Question",
-      name: "האם IPTV ישראל מציע ניסיון IPTV בחינם?",
+      name: "Does Apollo Groups offer a free trial?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "כן! אנו מציעים ניסיון IPTV חינם למשך 3 שעות כדי שתוכלו לבדוק את איכות השירות שלנו לפני קניית מנוי.",
+        text: "Yes! Apollo Groups offers a 3-hour free trial so you can test the quality before purchasing a subscription.",
       },
     },
     {
       "@type": "Question",
-      name: "איך אני מתקין את IPTV ישראל במכשיר שלי?",
+      name: "How do I install Apollo Groups on my device?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "הגדרת IPTV ישראל אורכת פחות מ-5 דקות. הורידו נגן IPTV תואם לטלוויזיה חכמה, סטרימר, אנדרואיד, iOS או MAG, הזינו את פרטי ההתחברות והתחילו לצפות.",
+        text: "Setup takes under 5 minutes. Download a compatible IPTV player on your Smart TV, Firestick, Android, iOS or MAG device, enter your credentials, and start watching.",
       },
     },
     {
       "@type": "Question",
-      name: "אילו ערוצים כלולים ב-IPTV ישראל?",
+      name: "What channels are included in Apollo Groups?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "הרשימה כוללת מעל 21,000 ערוצים מכל העולם, כולל ערוצי ספורט בשידור חי, בידור, חדשות וערוצי ילדים, בנוסף ל-65,000 סרטים וסדרות.",
+        text: "Apollo Groups includes 49,000+ channels from around the world, including live sports, entertainment, news, kids channels, plus 65,000+ movies and series.",
       },
     },
   ],
@@ -75,14 +75,14 @@ const faqJsonLd = {
 const productJsonLd = {
   "@context": "https://schema.org",
   "@type": "Product",
-  name: "מנוי פרימיום ל-IPTV ישראל",
+  name: "Apollo Groups Premium Subscription",
   description:
-    "שירות מנויי ה-IPTV הטוב והאמין ביותר עם למעלה מ-21,000 ערוצים בשידור חי, 65,000 סרטים וסדרות ב-VOD, איכות סטרימינג 4K UHD וטכנולוגיית מניעת תקיעות.",
-  brand: { "@type": "Brand", name: "IPTV ישראל" },
+    "The best and most reliable IPTV subscription service with 49,000+ live channels, 65,000+ VOD titles, 4K UHD streaming quality and anti-freeze technology.",
+  brand: { "@type": "Brand", name: "Apollo Groups" },
   offers: [
     {
       "@type": "Offer",
-      name: "תוכנית לחודש אחד",
+      name: "1 Month Plan",
       price: "15.99",
       priceCurrency: "USD",
       availability: "https://schema.org/InStock",
@@ -90,7 +90,7 @@ const productJsonLd = {
     },
     {
       "@type": "Offer",
-      name: "תוכנית ל-3 חודשים",
+      name: "3 Month Plan",
       price: "35.99",
       priceCurrency: "USD",
       availability: "https://schema.org/InStock",
@@ -98,7 +98,7 @@ const productJsonLd = {
     },
     {
       "@type": "Offer",
-      name: "תוכנית ל-6 חודשים",
+      name: "6 Month Plan",
       price: "59.99",
       priceCurrency: "USD",
       availability: "https://schema.org/InStock",
@@ -106,7 +106,7 @@ const productJsonLd = {
     },
     {
       "@type": "Offer",
-      name: "תוכנית ל-12 חודשים",
+      name: "12 Month Plan",
       price: "89.99",
       priceCurrency: "USD",
       availability: "https://schema.org/InStock",
@@ -114,7 +114,7 @@ const productJsonLd = {
     },
     {
       "@type": "Offer",
-      name: "תוכנית ל-24 חודשים",
+      name: "24 Month Plan",
       price: "139.99",
       priceCurrency: "USD",
       availability: "https://schema.org/InStock",
