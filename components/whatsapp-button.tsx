@@ -13,7 +13,7 @@ export default function WhatsAppButton() {
       className="fixed bottom-6 left-6 z-50"
     >
       <Link
-        href="https://wa.me/212707711512"
+        href="https://wa.me/212707711512?text=WhatsApp%20Support%20-%20https%3A%2F%2Fapollogroupsiptv.com"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Contact Apollo Groups on WhatsApp"

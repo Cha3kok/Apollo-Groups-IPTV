@@ -113,7 +113,7 @@ export default function Pricing() {
                   </ul>
 
                   <Link
-                    href={`${settings?.supportWhatsAppUrl || 'https://wa.me/212707711512'}?text=Hello%20Apollo%20Groups%2C%20I%20want%20the%20${encodeURIComponent(plan.name)}%20plan.`}
+                    href={`${settings?.supportWhatsAppUrl || 'https://wa.me/212707711512'}?text=Buy%20Now%20-%20${encodeURIComponent(plan.name)}%20-%20https%3A%2F%2Fapollogroupsiptv.com`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`mt-auto rounded-xl py-3 text-center text-sm font-semibold transition-all ${plan.popular

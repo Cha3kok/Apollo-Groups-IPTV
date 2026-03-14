@@ -27,8 +27,8 @@ export default function Footer() {
                 { label: "Home", href: "#home" },
                 { label: "IPTV Pricing Plans", href: "#pricing" },
                 { label: "Reseller Program", href: "#reseller" },
-                { label: "Contact Us", href: "https://wa.me/212707711512" },
-                { label: "Free IPTV Trial", href: "https://wa.me/212707711512?text=I%20want%20a%2024h%20free%20Apollo%20Groups%20trial" },
+                { label: "Contact Us", href: "https://wa.me/212707711512?text=Contact%20Us%20-%20https%3A%2F%2Fapollogroupsiptv.com" },
+                { label: "Free IPTV Trial", href: "https://wa.me/212707711512?text=Free%20IPTV%20Trial%20-%20https%3A%2F%2Fapollogroupsiptv.com" },
               ].map((link) => (
                 <li key={link.label}>
                   <Link
@@ -70,7 +70,7 @@ export default function Footer() {
             <ul className="flex flex-col gap-2.5">
               <li>
                 <Link
-                  href="https://wa.me/212707711512"
+                  href="https://wa.me/212707711512?text=WhatsApp%20Support%20-%20https%3A%2F%2Fapollogroupsiptv.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-muted-foreground transition-colors hover:text-primary"

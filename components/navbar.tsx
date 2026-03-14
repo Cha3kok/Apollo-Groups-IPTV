@@ -8,9 +8,10 @@ import Link from "next/link"
 const navLinks = [
   { label: "Home", href: "/" },
   { label: "Channel List", href: "/channels-list" },
+  { label: "Blog", href: "/blog" },
   { label: "Pricing", href: "/#pricing" },
   { label: "Reseller Program", href: "/#reseller" },
-  { label: "Contact Us", href: "https://wa.me/212707711512" },
+  { label: "Contact Us", href: "https://wa.me/212707711512?text=Contact%20Us%20-%20https%3A%2F%2Fapollogroupsiptv.com" },
 ]
 
 const languages = [
@@ -94,7 +95,7 @@ export default function Navbar() {
 
             {/* CTA */}
             <Link
-              href="https://wa.me/212707711512"
+              href="https://wa.me/212707711512?text=Get%20Started%20-%20https%3A%2F%2Fapollogroupsiptv.com"
               target="_blank"
               rel="noopener noreferrer"
               className="neon-glow rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground transition-all hover:brightness-110"
@@ -149,7 +150,7 @@ export default function Navbar() {
                 ))}
               </div>
               <Link
-                href="https://wa.me/212707711512"
+                href="https://wa.me/212707711512?text=Get%20Started%20-%20https%3A%2F%2Fapollogroupsiptv.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="neon-glow mt-2 rounded-lg bg-primary px-4 py-2.5 text-center text-sm font-semibold text-primary-foreground"

@@ -31,7 +31,7 @@ export default function ResellerCTA() {
           </div>
 
           <Link
-            href="https://wa.me/212707711512?text=I%20want%20to%20become%20an%20Apollo%20Groups%20reseller"
+            href="https://wa.me/212707711512?text=Join%20Reseller%20Program%20-%20https%3A%2F%2Fapollogroupsiptv.com"
             target="_blank"
             rel="noopener noreferrer"
             className="neon-glow flex shrink-0 items-center gap-2 rounded-xl bg-primary px-8 py-4 text-base font-semibold text-primary-foreground transition-all hover:brightness-110"

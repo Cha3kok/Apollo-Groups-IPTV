@@ -11,25 +11,12 @@ export const metadata: Metadata = {
   description:
     'Apollo Groups is the leading IPTV subscription service. Access 49,000+ live channels, 65,000+ movies & series in 4K UHD. 24/7 WhatsApp support. Free trial available!',
   keywords: [
-    'Apollo Groups',
-    'Apollo Group',
-    'Apollo IPTV',
-    'best IPTV service',
-    'premium IPTV subscription',
-    'IPTV streaming service',
-    'buy IPTV',
-    'IPTV provider',
-    '4K IPTV',
-    'cheap IPTV subscription',
-    'IPTV Smarters',
-    'Firestick IPTV',
-    'IPTV free trial',
-    'IPTV channels list',
-    'IPTV subscription 2026',
-    'best IPTV provider',
-    'IPTV reseller',
-    'live TV streaming',
-    'sports IPTV',
+    'Apollo Groups', 'Apollo Group', 'Apollo IPTV', 'best IPTV service',
+    'premium IPTV subscription', 'IPTV streaming service', 'buy IPTV',
+    'IPTV provider', '4K IPTV', 'cheap IPTV subscription', 'IPTV Smarters',
+    'Firestick IPTV', 'IPTV free trial', 'IPTV channels list',
+    'IPTV subscription 2026', 'best IPTV provider', 'IPTV reseller',
+    'live TV streaming', 'sports IPTV',
   ],
   openGraph: {
     title: 'Apollo Groups – #1 Premium Streaming Service 2026',
@@ -66,8 +53,9 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${geistMono.variable}`}>
-      <body className="font-sans antialiased">
+    // زدنا suppressHydrationWarning هنا حيت React كينصح بها فاش كيكون التغيير ف الـ html/body
+    <html lang="en" className={`${inter.variable} ${geistMono.variable}`} suppressHydrationWarning>
+      <body className="font-sans antialiased" suppressHydrationWarning>
         {children}
         <Analytics />
       </body>
