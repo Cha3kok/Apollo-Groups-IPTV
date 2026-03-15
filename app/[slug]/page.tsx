@@ -38,7 +38,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { slug } = await params;
 
   try {
-    const { data } = await getClient().query({
+    const { data } = await getClient().query<any>({
       query: GET_POST_DETAIL,
       variables: { id: slug },
     });
@@ -69,7 +69,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 export default async function SinglePostPage({ params }: PageProps) {
   const { slug } = await params;
 
-  const { data, errors } = await getClient().query({
+  const { data, errors } = await getClient().query<any>({
     query: GET_POST_DETAIL,
     variables: { id: slug },
     errorPolicy: "all",
@@ -80,8 +80,16 @@ export default async function SinglePostPage({ params }: PageProps) {
     notFound();
   }
 
-  const post = data.post;
+  const post = { ...data.post };
   
+  // Clean content from WP-injected backend URLs and embeds
+  post.content = (post.content as string)
+    .replace(/<p>https:\/\/backend\.apollogroupsiptv\.com\/.*?<\/p>/gi, '')
+    .replace(/<blockquote[^>]*?class="[^"]*wp-embedded-content[^"]*"[^>]*?>[\s\S]*?<\/blockquote>/gi, '')
+    .replace(/<iframe[^>]*?class="[^"]*wp-embedded-content[^"]*"[^>]*?>[\s\S]*?<\/iframe>/gi, '')
+    .replace(/<p>\s*<\/p>/gi, '') // Remove empty paragraphs left behind
+    .trim();
+
   // Estimate reading time (rough calculation)
   const wordCount = post.content.replace(/<[^>]*>?/gm, '').split(/\s+/).length;
   const readingTime = Math.ceil(wordCount / 200);
@@ -110,9 +118,6 @@ export default async function SinglePostPage({ params }: PageProps) {
           </Link>
 
           <header className="mb-10 border-b border-border pb-10 relative z-10">
-            <h1 className="text-3xl md:text-5xl lg:text-6xl font-black text-foreground leading-[1.1] mb-6 tracking-tight">
-              {post.title}
-            </h1>
             
             <div className="flex flex-wrap items-center gap-6 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
