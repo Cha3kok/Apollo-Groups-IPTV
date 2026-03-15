@@ -5,6 +5,8 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { ChevronRight, Clock, Calendar, ArrowLeft } from "lucide-react";
 
+export const revalidate = 0; // Disable cache for this page
+
 // 1. الـ Query المصححة على حساب طلب السيرفر ديالك
 const GET_POST_DETAIL = gql`
   query GetPostBySlug($id: ID!) {

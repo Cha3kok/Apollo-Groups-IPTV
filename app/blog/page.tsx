@@ -2,6 +2,8 @@ import { gql } from "@apollo/client";
 import { getClient } from "@/lib/apollo-client";
 import Link from "next/link";
 
+export const revalidate = 0; // Disable cache for this page
+
 const GET_ALL_POSTS = gql`
   query GetAllPosts {
     posts {
